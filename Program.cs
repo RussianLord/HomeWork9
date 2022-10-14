@@ -8,6 +8,7 @@
     int numberM = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Введите кратность");
     int step = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Вывод чисел кратных числу " + step);
     NumberDiff(numberN, numberM, step);
 }
 
