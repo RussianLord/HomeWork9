@@ -1,7 +1,7 @@
 ﻿void HW1()
 {
     Console.Clear();
-    Console.WriteLine("Данная программа выводи числа из введённого диапазона чисал кратные числу, которое вы укажите...");
+    Console.WriteLine("Данная программа выводит числа из введённого диапазона чисел кратные числу, которое вы укажете...");
     Console.WriteLine("Введите число N");
     int numberN = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Введите число M");
@@ -86,6 +86,6 @@ void PrintAkkerman(int numberM, int numberN)
     Console.WriteLine("Получаем число А = " + A);
 }
 
-// HW1();
+HW1();
 // HW2();
-HW3();
+// HW3();
